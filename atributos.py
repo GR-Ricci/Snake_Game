@@ -41,8 +41,8 @@ def imagem(tela):
     return cenarios
 
 def som(bases):
-    musicas1 =['som/musicas/Hypnotic-Puzzle.mp3','som/musicas/Hypnotic-Puzzle3.mp3',
-               'som/musicas/Hypnotic-Puzzle4.mp3','som/musicas/Hypnotic-Puzzle2.mp3']
+    musicas1 =['elementos/som/musicas/Hypnotic-Puzzle.mp3','elementos/som/musicas/Hypnotic-Puzzle3.mp3',
+               'elementos/som/musicas/Hypnotic-Puzzle4.mp3','elementos/som/musicas/Hypnotic-Puzzle2.mp3']
     if not bases['pause']:
         if not pygame.mixer.music.get_busy():
             pygame.mixer.music.load(musicas1[bases['faixa']])
